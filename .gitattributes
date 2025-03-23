@@ -1,0 +1,2 @@
+model_zoo/team00_sgn.ckpt filter=lfs diff=lfs merge=lfs -text
+model_zoo/team28_C2S.pth filter=lfs diff=lfs merge=lfs -text
