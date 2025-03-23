@@ -1,0 +1,234 @@
+25-03-23 13:05:37.827 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:05:37.829 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:06:41.134 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:06:41.135 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:06:41.235 : Processing image 1: 0000001, shape=(864×864), category=medium, patch_size=768
+25-03-23 13:06:57.961 : 0000001.png - PSNR: 15.65 dB
+25-03-23 13:06:58.023 : Processing image 2: 0000002, shape=(560×632), category=small, patch_size=512
+25-03-23 13:07:06.073 : 0000002.png - PSNR: 15.49 dB
+25-03-23 13:07:06.311 : Processing image 3: 0000003, shape=(2264×3024), category=large, patch_size=896
+25-03-23 13:08:40.365 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:08:40.367 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:08:40.430 : Processing image 1: 0000001, shape=(864×864), category=medium, patch_size=768
+25-03-23 13:08:57.342 : 0000001.png - PSNR: 15.65 dB
+25-03-23 13:08:57.415 : Processing image 2: 0000002, shape=(560×632), category=small, patch_size=512
+25-03-23 13:09:05.210 : 0000002.png - PSNR: 15.49 dB
+25-03-23 13:09:05.474 : Processing image 3: 0000003, shape=(2264×3024), category=large, patch_size=896
+25-03-23 13:10:57.428 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:10:57.428 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:11:23.324 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:11:23.325 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:11:38.963 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:11:38.964 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:12:24.005 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:12:24.006 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:12:24.081 : Processing image 1: 0000001, shape=(864×864), category=medium, patch_size=768
+25-03-23 13:12:40.778 : 0000001.png - PSNR: 15.65 dB
+25-03-23 13:12:40.813 : Processing image 2: 0000002, shape=(560×632), category=small, patch_size=512
+25-03-23 13:12:48.923 : 0000002.png - PSNR: 15.49 dB
+25-03-23 13:12:49.131 : Processing image 3: 0000003, shape=(2264×3024), category=large, patch_size=896
+25-03-23 13:15:54.321 : 0000003.png - PSNR: 15.60 dB
+25-03-23 13:15:54.889 : Processing image 4: 0000004, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:16:27.154 : 0000004.png - PSNR: 15.45 dB
+25-03-23 13:16:27.326 : Processing image 5: 0000005, shape=(960×1440), category=large, patch_size=896
+25-03-23 13:16:59.466 : 0000005.png - PSNR: 16.50 dB
+25-03-23 13:16:59.548 : Processing image 6: 0000006, shape=(960×1440), category=large, patch_size=896
+25-03-23 13:17:55.337 : ================================================================================
+25-03-23 13:17:55.337 : WARNING: In hybrid_test mode, the select_dataset function is currently set to use
+25-03-23 13:17:55.337 :          the same file for both input and ground truth. This will result in
+25-03-23 13:17:55.337 :          artificially high PSNR/SSIM metrics as we're comparing the output
+25-03-23 13:17:55.337 :          against the same noisy input, not a clean ground truth.
+25-03-23 13:17:55.338 :          The results will be saved correctly, but the metrics are not valid.
+25-03-23 13:17:55.338 : ================================================================================
+25-03-23 13:17:55.338 : Using TimeDiffiT model with the following settings:
+25-03-23 13:17:55.338 :   - Stride: 384
+25-03-23 13:17:55.338 :   - Default patch size: 512
+25-03-23 13:17:55.339 :   - Using adaptive patch sizes: Large=896, Medium=768, Small=512
+25-03-23 13:17:55.339 :   - Geometric ensemble: Enabled
+25-03-23 13:18:02.758 : 28_TimeDiffiT_ResNet_color
+25-03-23 13:18:02.758 : Using adaptive patch sizes: {'large': 896, 'medium': 768, 'small': 512}
+25-03-23 13:18:02.836 : Processing image 1: 0000001, shape=(864×864), category=medium, patch_size=768
+25-03-23 13:18:19.430 : 0000001.png - PSNR: 15.65 dB
+25-03-23 13:18:19.501 : Processing image 2: 0000002, shape=(560×632), category=small, patch_size=512
+25-03-23 13:18:27.693 : 0000002.png - PSNR: 15.49 dB
+25-03-23 13:18:27.977 : Processing image 3: 0000003, shape=(2264×3024), category=large, patch_size=896
+25-03-23 13:21:31.544 : 0000003.png - PSNR: 15.60 dB
+25-03-23 13:21:32.074 : Processing image 4: 0000004, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:22:02.887 : 0000004.png - PSNR: 15.45 dB
+25-03-23 13:22:03.035 : Processing image 5: 0000005, shape=(960×1440), category=large, patch_size=896
+25-03-23 13:22:34.431 : 0000005.png - PSNR: 16.50 dB
+25-03-23 13:22:34.562 : Processing image 6: 0000006, shape=(960×1440), category=large, patch_size=896
+25-03-23 13:23:05.860 : 0000006.png - PSNR: 15.76 dB
+25-03-23 13:23:06.001 : Processing image 7: 0000007, shape=(632×1232), category=small, patch_size=512
+25-03-23 13:23:17.664 : 0000007.png - PSNR: 16.48 dB
+25-03-23 13:23:17.745 : Processing image 8: 0000008, shape=(872×872), category=medium, patch_size=768
+25-03-23 13:23:33.603 : 0000008.png - PSNR: 15.24 dB
+25-03-23 13:23:33.741 : Processing image 9: 0000009, shape=(968×1472), category=large, patch_size=896
+25-03-23 13:24:04.292 : 0000009.png - PSNR: 15.29 dB
+25-03-23 13:24:04.410 : Processing image 10: 0000010, shape=(1608×1152), category=large, patch_size=896
+25-03-23 13:24:36.043 : 0000010.png - PSNR: 15.79 dB
+25-03-23 13:24:36.204 : Processing image 11: 0000011, shape=(872×1320), category=medium, patch_size=768
+25-03-23 13:25:00.048 : 0000011.png - PSNR: 15.23 dB
+25-03-23 13:25:00.202 : Processing image 12: 0000012, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:25:31.682 : 0000012.png - PSNR: 15.58 dB
+25-03-23 13:25:31.820 : Processing image 13: 0000013, shape=(944×1280), category=large, patch_size=896
+25-03-23 13:25:52.126 : 0000013.png - PSNR: 14.90 dB
+25-03-23 13:25:52.220 : Processing image 14: 0000014, shape=(584×872), category=small, patch_size=512
+25-03-23 13:25:59.986 : 0000014.png - PSNR: 14.94 dB
+25-03-23 13:26:00.072 : Processing image 15: 0000015, shape=(920×1256), category=large, patch_size=896
+25-03-23 13:26:21.230 : 0000015.png - PSNR: 14.89 dB
+25-03-23 13:26:21.338 : Processing image 16: 0000016, shape=(696×960), category=small, patch_size=512
+25-03-23 13:26:33.258 : 0000016.png - PSNR: 15.88 dB
+25-03-23 13:26:33.326 : Processing image 17: 0000017, shape=(936×1496), category=large, patch_size=896
+25-03-23 13:27:04.566 : 0000017.png - PSNR: 15.28 dB
+25-03-23 13:27:04.655 : Processing image 18: 0000018, shape=(944×1416), category=large, patch_size=896
+25-03-23 13:27:36.060 : 0000018.png - PSNR: 15.37 dB
+25-03-23 13:27:36.199 : Processing image 19: 0000019, shape=(1008×752), category=small, patch_size=512
+25-03-23 13:27:47.083 : 0000019.png - PSNR: 15.31 dB
+25-03-23 13:27:47.198 : Processing image 20: 0000020, shape=(816×1224), category=medium, patch_size=768
+25-03-23 13:28:10.608 : 0000020.png - PSNR: 15.43 dB
+25-03-23 13:28:10.742 : Processing image 21: 0000021, shape=(792×1208), category=medium, patch_size=768
+25-03-23 13:28:34.340 : 0000021.png - PSNR: 15.46 dB
+25-03-23 13:28:34.473 : Processing image 22: 0000022, shape=(816×1224), category=medium, patch_size=768
+25-03-23 13:28:58.021 : 0000022.png - PSNR: 15.86 dB
+25-03-23 13:28:58.097 : Processing image 23: 0000023, shape=(816×1224), category=medium, patch_size=768
+25-03-23 13:29:21.589 : 0000023.png - PSNR: 15.41 dB
+25-03-23 13:29:21.697 : Processing image 24: 0000024, shape=(624×1248), category=small, patch_size=512
+25-03-23 13:29:33.643 : 0000024.png - PSNR: 15.50 dB
+25-03-23 13:29:33.757 : Processing image 25: 0000025, shape=(816×1232), category=medium, patch_size=768
+25-03-23 13:29:56.282 : 0000025.png - PSNR: 15.95 dB
+25-03-23 13:29:56.411 : Processing image 26: 0000026, shape=(848×1280), category=medium, patch_size=768
+25-03-23 13:30:19.890 : 0000026.png - PSNR: 15.42 dB
+25-03-23 13:30:20.083 : Processing image 27: 0000027, shape=(1368×2064), category=large, patch_size=896
+25-03-23 13:31:37.493 : 0000027.png - PSNR: 15.40 dB
+25-03-23 13:31:37.736 : Processing image 28: 0000028, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:32:09.420 : 0000028.png - PSNR: 15.12 dB
+25-03-23 13:32:09.564 : Processing image 29: 0000029, shape=(744×1008), category=small, patch_size=512
+25-03-23 13:32:21.665 : 0000029.png - PSNR: 15.30 dB
+25-03-23 13:32:21.833 : Processing image 30: 0000030, shape=(1368×1920), category=large, patch_size=896
+25-03-23 13:33:23.629 : 0000030.png - PSNR: 15.77 dB
+25-03-23 13:33:23.832 : Processing image 31: 0000031, shape=(1032×576), category=small, patch_size=512
+25-03-23 13:33:35.766 : 0000031.png - PSNR: 15.78 dB
+25-03-23 13:33:35.853 : Processing image 32: 0000032, shape=(752×1008), category=small, patch_size=512
+25-03-23 13:33:47.763 : 0000032.png - PSNR: 15.36 dB
+25-03-23 13:33:47.876 : Processing image 33: 0000033, shape=(720×1368), category=small, patch_size=512
+25-03-23 13:34:03.985 : 0000033.png - PSNR: 15.20 dB
+25-03-23 13:34:04.091 : Processing image 34: 0000034, shape=(744×1176), category=small, patch_size=512
+25-03-23 13:34:16.148 : 0000034.png - PSNR: 15.63 dB
+25-03-23 13:34:16.253 : Processing image 35: 0000035, shape=(608×968), category=small, patch_size=512
+25-03-23 13:34:28.108 : 0000035.png - PSNR: 15.42 dB
+25-03-23 13:34:28.216 : Processing image 36: 0000036, shape=(744×1320), category=small, patch_size=512
+25-03-23 13:34:44.264 : 0000036.png - PSNR: 15.44 dB
+25-03-23 13:34:44.386 : Processing image 37: 0000037, shape=(816×920), category=medium, patch_size=768
+25-03-23 13:35:00.221 : 0000037.png - PSNR: 15.68 dB
+25-03-23 13:35:00.370 : Processing image 38: 0000038, shape=(728×1104), category=small, patch_size=512
+25-03-23 13:35:12.236 : 0000038.png - PSNR: 16.22 dB
+25-03-23 13:35:12.352 : Processing image 39: 0000039, shape=(864×1296), category=medium, patch_size=768
+25-03-23 13:35:35.086 : 0000039.png - PSNR: 15.57 dB
+25-03-23 13:35:35.197 : Processing image 40: 0000040, shape=(632×960), category=small, patch_size=512
+25-03-23 13:35:47.052 : 0000040.png - PSNR: 15.68 dB
+25-03-23 13:35:47.165 : Processing image 41: 0000041, shape=(960×1440), category=large, patch_size=896
+25-03-23 13:36:18.476 : 0000041.png - PSNR: 15.34 dB
+25-03-23 13:36:18.639 : Processing image 42: 0000042, shape=(960×1440), category=large, patch_size=896
+25-03-23 13:36:50.364 : 0000042.png - PSNR: 15.31 dB
+25-03-23 13:36:50.492 : Processing image 43: 0000043, shape=(608×992), category=small, patch_size=512
+25-03-23 13:37:02.572 : 0000043.png - PSNR: 15.28 dB
+25-03-23 13:37:02.657 : Processing image 44: 0000044, shape=(584×888), category=small, patch_size=512
+25-03-23 13:37:10.749 : 0000044.png - PSNR: 15.61 dB
+25-03-23 13:37:10.796 : Processing image 45: 0000045, shape=(936×864), category=medium, patch_size=768
+25-03-23 13:37:26.391 : 0000045.png - PSNR: 15.32 dB
+25-03-23 13:37:26.500 : Processing image 46: 0000046, shape=(896×1344), category=large, patch_size=896
+25-03-23 13:37:42.451 : 0000046.png - PSNR: 15.04 dB
+25-03-23 13:37:42.595 : Processing image 47: 0000047, shape=(1224×816), category=medium, patch_size=768
+25-03-23 13:38:05.459 : 0000047.png - PSNR: 14.68 dB
+25-03-23 13:38:05.562 : Processing image 48: 0000048, shape=(840×656), category=small, patch_size=512
+25-03-23 13:38:13.687 : 0000048.png - PSNR: 16.72 dB
+25-03-23 13:38:13.774 : Processing image 49: 0000049, shape=(912×1320), category=large, patch_size=896
+25-03-23 13:38:45.051 : 0000049.png - PSNR: 16.17 dB
+25-03-23 13:38:45.195 : Processing image 50: 0000050, shape=(912×1368), category=large, patch_size=896
+25-03-23 13:39:16.298 : 0000050.png - PSNR: 15.22 dB
+25-03-23 13:39:16.396 : Processing image 51: 0000051, shape=(680×680), category=small, patch_size=512
+25-03-23 13:39:24.307 : 0000051.png - PSNR: 14.92 dB
+25-03-23 13:39:24.372 : Processing image 52: 0000052, shape=(984×1616), category=large, patch_size=896
+25-03-23 13:39:54.996 : 0000052.png - PSNR: 14.94 dB
+25-03-23 13:39:55.149 : Processing image 53: 0000053, shape=(1296×864), category=medium, patch_size=768
+25-03-23 13:40:18.708 : 0000053.png - PSNR: 15.34 dB
+25-03-23 13:40:18.885 : Processing image 54: 0000054, shape=(1016×1832), category=large, patch_size=896
+25-03-23 13:41:00.798 : 0000054.png - PSNR: 16.98 dB
+25-03-23 13:41:00.959 : Processing image 55: 0000055, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:41:32.567 : 0000055.png - PSNR: 15.56 dB
+25-03-23 13:41:32.681 : Processing image 56: 0000056, shape=(1016×1520), category=large, patch_size=896
+25-03-23 13:42:02.829 : 0000056.png - PSNR: 15.23 dB
+25-03-23 13:42:03.038 : Processing image 57: 0000057, shape=(1440×960), category=large, patch_size=896
+25-03-23 13:42:34.412 : 0000057.png - PSNR: 15.53 dB
+25-03-23 13:42:34.558 : Processing image 58: 0000058, shape=(1248×824), category=medium, patch_size=768
+25-03-23 13:42:57.993 : 0000058.png - PSNR: 15.43 dB
+25-03-23 13:42:58.117 : Processing image 59: 0000059, shape=(1296×912), category=large, patch_size=896
+25-03-23 13:43:28.981 : 0000059.png - PSNR: 15.47 dB
+25-03-23 13:43:29.131 : Processing image 60: 0000060, shape=(864×1152), category=medium, patch_size=768
+25-03-23 13:43:44.268 : 0000060.png - PSNR: 15.17 dB
+25-03-23 13:43:44.323 : Processing image 61: 0000061, shape=(992×744), category=small, patch_size=512
+25-03-23 13:43:56.245 : 0000061.png - PSNR: 15.69 dB
+25-03-23 13:43:56.367 : Processing image 62: 0000062, shape=(936×1400), category=large, patch_size=896
+25-03-23 13:44:27.765 : 0000062.png - PSNR: 16.36 dB
+25-03-23 13:44:27.927 : Processing image 63: 0000063, shape=(944×1416), category=large, patch_size=896
+25-03-23 13:44:59.080 : 0000063.png - PSNR: 15.84 dB
+25-03-23 13:44:59.222 : Processing image 64: 0000064, shape=(864×1152), category=medium, patch_size=768
+25-03-23 13:45:15.048 : 0000064.png - PSNR: 15.50 dB
+25-03-23 13:45:15.160 : Processing image 65: 0000065, shape=(864×864), category=medium, patch_size=768
+25-03-23 13:45:30.745 : 0000065.png - PSNR: 15.81 dB
+25-03-23 13:45:30.836 : Processing image 66: 0000066, shape=(816×1016), category=medium, patch_size=768
+25-03-23 13:45:45.810 : 0000066.png - PSNR: 15.99 dB
+25-03-23 13:45:45.929 : Processing image 67: 0000067, shape=(776×1496), category=medium, patch_size=768
+25-03-23 13:46:09.547 : 0000067.png - PSNR: 15.27 dB
+25-03-23 13:46:09.756 : Processing image 68: 0000068, shape=(1328×2552), category=large, patch_size=896
+25-03-23 13:47:42.971 : 0000068.png - PSNR: 15.66 dB
+25-03-23 13:47:43.353 : Processing image 69: 0000069, shape=(1560×2552), category=large, patch_size=896
+25-03-23 13:49:18.218 : 0000069.png - PSNR: 15.43 dB
+25-03-23 13:49:18.568 : Processing image 70: 0000070, shape=(672×1016), category=small, patch_size=512
+25-03-23 13:49:30.542 : 0000070.png - PSNR: 15.14 dB
+25-03-23 13:49:30.665 : Processing image 71: 0000071, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:50:01.802 : 0000071.png - PSNR: 15.69 dB
+25-03-23 13:50:01.970 : Processing image 72: 0000072, shape=(1416×936), category=large, patch_size=896
+25-03-23 13:50:34.220 : 0000072.png - PSNR: 15.08 dB
+25-03-23 13:50:34.349 : Processing image 73: 0000073, shape=(752×1344), category=small, patch_size=512
+25-03-23 13:50:49.811 : 0000073.png - PSNR: 15.15 dB
+25-03-23 13:50:49.916 : Processing image 74: 0000074, shape=(768×1152), category=medium, patch_size=768
+25-03-23 13:50:58.312 : 0000074.png - PSNR: 15.45 dB
+25-03-23 13:50:58.361 : Processing image 75: 0000075, shape=(1032×576), category=small, patch_size=512
+25-03-23 13:51:10.111 : 0000075.png - PSNR: 15.61 dB
+25-03-23 13:51:10.159 : Processing image 76: 0000076, shape=(752×968), category=small, patch_size=512
+25-03-23 13:51:21.968 : 0000076.png - PSNR: 15.01 dB
+25-03-23 13:51:22.088 : Processing image 77: 0000077, shape=(864×1296), category=medium, patch_size=768
+25-03-23 13:51:45.456 : 0000077.png - PSNR: 15.43 dB
+25-03-23 13:51:45.598 : Processing image 78: 0000078, shape=(864×1152), category=medium, patch_size=768
+25-03-23 13:52:01.720 : 0000078.png - PSNR: 15.57 dB
+25-03-23 13:52:01.835 : Processing image 79: 0000079, shape=(816×1224), category=medium, patch_size=768
+25-03-23 13:52:25.943 : 0000079.png - PSNR: 15.82 dB
+25-03-23 13:52:26.084 : Processing image 80: 0000080, shape=(920×1392), category=large, patch_size=896
+25-03-23 13:52:57.670 : 0000080.png - PSNR: 15.41 dB
+25-03-23 13:52:57.834 : Processing image 81: 0000081, shape=(896×1352), category=large, patch_size=896
+25-03-23 13:53:13.953 : 0000081.png - PSNR: 15.85 dB
+25-03-23 13:53:14.068 : Processing image 82: 0000082, shape=(624×600), category=small, patch_size=512
+25-03-23 13:53:22.087 : 0000082.png - PSNR: 15.38 dB
+25-03-23 13:53:22.172 : Processing image 83: 0000083, shape=(768×768), category=medium, patch_size=768
+25-03-23 13:53:26.525 : 0000083.png - PSNR: 15.93 dB
+25-03-23 13:53:26.669 : Processing image 84: 0000084, shape=(1272×1896), category=large, patch_size=896
+25-03-23 13:54:08.153 : 0000084.png - PSNR: 15.10 dB
+25-03-23 13:54:08.399 : Processing image 85: 0000085, shape=(992×1496), category=large, patch_size=896
+25-03-23 13:54:40.130 : 0000085.png - PSNR: 15.76 dB
+25-03-23 13:54:40.338 : Processing image 86: 0000086, shape=(1224×1832), category=large, patch_size=896
+25-03-23 13:55:22.792 : 0000086.png - PSNR: 15.05 dB
+25-03-23 13:55:22.995 : Processing image 87: 0000087, shape=(1008×752), category=small, patch_size=512
+25-03-23 13:55:34.007 : 0000087.png - PSNR: 15.34 dB
+25-03-23 13:55:34.102 : Processing image 88: 0000088, shape=(896×720), category=small, patch_size=512
+25-03-23 13:55:42.386 : 0000088.png - PSNR: 16.30 dB
+25-03-23 13:55:42.439 : Processing image 89: 0000089, shape=(864×1152), category=medium, patch_size=768
+25-03-23 13:55:58.578 : 0000089.png - PSNR: 15.12 dB
+25-03-23 13:55:58.772 : Processing image 90: 0000090, shape=(1976×1320), category=large, patch_size=896
+25-03-23 13:57:02.595 : 0000090.png - PSNR: 14.98 dB
+25-03-23 13:57:02.832 : Processing image 91: 0000091, shape=(896×896), category=large, patch_size=896
+25-03-23 13:57:08.615 : 0000091.png - PSNR: 15.27 dB
+25-03-23 13:57:08.727 : Processing image 92: 0000092, shape=(992×696), category=small, patch_size=512
+25-03-23 13:57:20.783 : 0000092.png - PSNR: 15.43 dB
+25-03-23 13:57:20.895 : Processing image 93: 0000093, shape=(984×1472), category=large, patch_size=896
