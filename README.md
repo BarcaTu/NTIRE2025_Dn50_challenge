@@ -1,4 +1,4 @@
-```markdown
+
 # [NTIRE 2025 Challenge on Image Denoising](https://cvlai.net/ntire/2025/) @ [CVPR 2025](https://cvpr.thecvf.com/)
 
 This repository provides code for denoising noisy images by Team 28 Sky-D.
