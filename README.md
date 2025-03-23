@@ -1,9 +1,24 @@
-Here's the complete README.md for your project:
-
 ```markdown
 # [NTIRE 2025 Challenge on Image Denoising](https://cvlai.net/ntire/2025/) @ [CVPR 2025](https://cvpr.thecvf.com/)
 
 This repository provides code for denoising noisy images by Team 28 Sky-D.
+
+## Setup Instructions
+
+### 1. Create Model Directory
+First, you need to create a model_zoo directory to store the pretrained model weights:
+```bash
+mkdir -p model_zoo
+```
+
+### 2. Download Pretrained Weights
+Download our pretrained model weights from this link: [Sky-D Model Weights](https://drive.google.com/file/d/12KQwBiW_mpB0wxnz_wUEIsXgHWG2IgTW/view)
+
+After downloading, place the file in the model_zoo directory with the correct name:
+```bash
+# Place the downloaded file in the model_zoo directory
+mv path/to/downloaded/file.pth ./model_zoo/team28_C2S.pth
+```
 
 ## How to add noise to images?
 ```
